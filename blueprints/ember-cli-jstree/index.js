@@ -5,7 +5,7 @@ module.exports = {
         return this.addBowerPackagesToProject([
           { 
             name : 'jstree',
-            source: 'git@github.com:phraniiac/jstree.git' 
+            source: 'https://github.com/phraniiac/jstree.git' 
           }
         ]);
     }
