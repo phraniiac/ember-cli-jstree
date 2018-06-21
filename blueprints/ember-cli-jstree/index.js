@@ -3,7 +3,10 @@ module.exports = {
 
     afterInstall: function() {
         return this.addBowerPackagesToProject([
-          { name : 'jstree' }
+          { 
+            name : 'jstree',
+            source: 'git@github.com:phraniiac/jstree.git' 
+          }
         ]);
     }
 };
